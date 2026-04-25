@@ -1,7 +1,21 @@
+import { Navbar } from "@/components/User/navbar";
 import React from "react";
+import "../globals.css";
 
-const UserLayout = () => {
-  return <div></div>;
-};
+export default function UserLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="flex-col">
+      <div className="border-b">
+        <div>
+          <Navbar />
+        </div>
+      </div>
 
-export default UserLayout;
+      <div className="px-50 w-full py-8">{children}</div>
+    </div>
+  );
+}
