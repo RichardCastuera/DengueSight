@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader } from "../ui/card";
 const RiskMap = () => {
   return (
     <div>
-      <Card className="text-[var(--accent-red)]/75">
+      <Card className="text-[var(--accent-violet)]/75">
         <CardHeader className="md:px-8">
           <h2 className="text-base font-bold">Province Risk Map</h2>
           <h6 className="text-xs">

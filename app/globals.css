@@ -16,9 +16,13 @@ body {
 
   /* ACCENTS */
   --accent-primary: #B00014; /* main crimson */
-  --accent-red:     #673da9; /* darker hover */
+  --accent-violet: #38023B;
+  --accent-light: #673da9;
   --accent-soft:    #E8E3E3; /* subtle highlight */
   --accent-neutral: #A8A3A3; /* secondary UI */
+  --accent-green: #22c55e;   /* Low */
+  --accent-orange: #f97316;  /* Moderate */
+  --accent-red: #ef4444;     /* High */
 
   /* TEXT */
   --text-primary:   #1A1A1A;

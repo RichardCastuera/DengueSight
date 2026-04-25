@@ -13,7 +13,7 @@ const ProvinceSummaryCard = ({
 }: ProvinceSummaryCardProps) => {
   return (
     <div>
-      <Card className="text-[var(--accent-red)]/75">
+      <Card className="text-[var(--accent-violet)]/75">
         <CardHeader className="md:px-8">
           <h2 className="text-base font-bold">{provinceName}</h2>
         </CardHeader>

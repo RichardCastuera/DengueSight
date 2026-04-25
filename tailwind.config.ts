@@ -24,7 +24,7 @@ const config: Config = {
         },
 
         neutral: {
-          text: "#1A1A1A",
+          text: "#38023B",
           secondary: "#2B2B2B",
           muted: "#6B6B6B",
           border: "#2B2B2B",

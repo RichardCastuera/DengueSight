@@ -5,7 +5,7 @@ import { Card, CardHeader, CardContent } from "../ui/card";
 const Banner = () => {
   return (
     <div>
-      <Card className="text-[var(--accent-red)]/75">
+      <Card className="text-[var(--accent-violet)]/75">
         <CardHeader> </CardHeader>
         <CardContent className="mb-5 md:px-8">
           <h1 className="text-3xl font-bold mb-4 md:text-5xl text-[var(--accent-red)]">

@@ -7,6 +7,8 @@ import {
   TableRow,
 } from "@/components/ui/table"; // adjust import path
 import { Card, CardContent, CardHeader } from "../ui/card";
+import { Button } from "../ui/button";
+import { Download } from "lucide-react";
 
 const ForecastSummary = () => {
   const data = [
@@ -31,9 +33,15 @@ const ForecastSummary = () => {
   ];
 
   return (
-    <Card className="text-[var(--accent-red)]/75">
+    <Card className="text-[var(--accent-violet)]/75">
       <CardHeader className="md:px-8">
-        <h2 className="text-base font-bold">Forecast Summary</h2>
+        <div className="flex flex-col md:flex-row w-full gap-4 md:items-center md:justify-between">
+          <h2 className="text-base font-bold">Forecast Summary</h2>
+          <Button variant="outline">
+            <Download className="mr-2 h-4 w-4" />
+            Download CSV
+          </Button>
+        </div>
       </CardHeader>
       <CardContent className="md:px-8">
         <Table>
