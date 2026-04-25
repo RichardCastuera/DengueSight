@@ -1,14 +1,7 @@
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-} from "@/components/ui/card";
 import Banner from "@/components/User/banner";
+import ForecastSummary from "@/components/User/forecast_summary_table";
 import ProvinceSummaryCard from "@/components/User/province_summary_card";
 import RiskMap from "@/components/User/risk_map";
-import React from "react";
 
 const Overview = () => {
   return (
@@ -27,6 +20,7 @@ const Overview = () => {
         <ProvinceSummaryCard provinceName={"Masbate"}></ProvinceSummaryCard>
         <ProvinceSummaryCard provinceName={"Sorsogon"}></ProvinceSummaryCard>
       </div>
+      <ForecastSummary />
     </div>
   );
 };
