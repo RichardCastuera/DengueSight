@@ -9,18 +9,22 @@ body {
 }
 
 :root {
-  --bg-base:      #F5EDD0;  /* ivory — headings */
-  --bg-surface:   #C8A86B;  /* old parchment — labels */ 
-  --bg-elevated:  #B8860B;  /* dark gold borders */
+  /* BACKGROUNDS */
+  --bg-base:      #F4F2F2;   /* page background */
+  --bg-surface:   #D3CECE;   /* cards / navbar */
+  --bg-elevated:  #FFFFFF;   /* raised panels */
 
-  --accent-gold:    #D4AF37;  /* replaces teal — primary */
-  --accent-crimson: #C0392B;  /* replaces coral — alerts/High risk */
-  --accent-red:     #8B1A1A;  /* replaces amber — Moderate risk */
-  --accent-green:   #2C5F2E;  /* Low risk / success */
-  --accent-blue:    #1A3A6B;  /* info / buttons */
+  /* ACCENTS */
+  --accent-primary: #B00014; /* main crimson */
+  --accent-red:     #7A000F; /* darker hover */
+  --accent-soft:    #E8E3E3; /* subtle highlight */
+  --accent-neutral: #A8A3A3; /* secondary UI */
 
-  --text-primary:   #4A2E12;  /* aged wood */  
-  --text-secondary: #2E1A0A;  /* dark mahogany */ 
-  --text-muted:     #7A6040;  /* muted brown */
-  --border:        #1C0F06;  /* deep parchment */  
+  /* TEXT */
+  --text-primary:   #1A1A1A;
+  --text-secondary: #2B2B2B;
+  --text-muted:     #6B6B6B;
+
+  /* BORDERS */
+  --border: #2B2B2B;
 }

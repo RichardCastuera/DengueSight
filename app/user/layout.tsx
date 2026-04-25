@@ -15,7 +15,7 @@ export default function UserLayout({
         </div>
       </div>
 
-      <div className="px-50 w-full py-8">{children}</div>
+      <div className="px-10 md:px-20 lg:px-50 w-full py-8">{children}</div>
     </div>
   );
 }
